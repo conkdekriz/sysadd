@@ -1,0 +1,43 @@
+/* 
+    Document   : main_css_sysadd
+    Created on : 01-09-2017, 17:46:16
+    Author     : kriz
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+.principal{
+    width: 100%;
+    /*border: #000 solid 10px;*/
+    margin: auto;
+}
+.img_adj{
+    width: 100%;
+}
+.img_adj_box{
+    max-width: 400px;
+    width: 100%;
+}
+.contenedorlogin{
+    width: 50%;
+    text-align: center;
+    margin:auto;
+}
+.seleccion{
+    width: 100%;
+}
+.seleccionbox{
+    float: left;
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-left: 0px;
+}
+
+
+
+

@@ -1,0 +1,188 @@
+/*FUENTES DEL SITIO*/
+@font-face{
+    font-family: museoRegular;
+    src: url(font/fmcMuseo300-Regular.otf);
+}
+
+
+@font-face{
+    font-family: museo;
+    src: url(font/MuseoSans-300.otf);
+}
+
+
+@font-face{
+    font-family: museoItalic;
+    src: url(font/MuseoSans-300Italic.otf);
+}
+
+
+@font-face{
+    font-family: raleway;
+    src: url(font/Raleway-Regular.otf);
+}
+
+
+body{
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: 'raleway';
+    color: #535353;
+}
+
+
+/*TITULO SLIDE*/
+h1{
+    font-weight: bold;
+    font-size: 34px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+h1.titulo1{
+    font-size: 44px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+h1.titulo2{
+    font-size: 47px;
+    text-transform: uppercase;
+}
+
+
+/*H de contenido*/
+h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+    /*Clases sobre imagen o fondo de color*/
+h3 .white{
+    color: #ffffff;
+}
+
+h4{
+    font-size: 19px;
+    font-weight: normal;
+}
+
+    /*Clases sobre imagen o fondo de color*/
+h4.white{
+    color: #ffffff;
+}
+
+h5{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+    /*Clases sobre imagen o fondo de color*/
+h5.white{
+    color: #ffffff;
+}
+
+h6{
+    font-size: 11px;
+}
+
+    /*Clases sobre imagen o fondo de color*/
+h6.white{
+    color: #ffffff;
+}
+
+/*FUENTE de contenido*/
+p{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+/*Clases sobre imagen o fondo de color*/
+p.white{
+    color: #ffffff;
+}
+
+
+/*FORMs*/
+
+input{
+    height: 16px;
+    padding: 5px;
+    background: #c6dae5;
+    color: #146ea2;
+    border: none;
+}
+
+input[type=checkbox]{
+    background: #c6dae5;
+    border: none;
+}
+
+input[type=submit]{
+    background: #439bcd;
+    width: 78px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bolder;
+}
+input[type=button]{
+    background: #439bcd;
+    width: 120px;
+    height: 25px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+label{
+    color: #4084b9;
+    font-size: 13px;
+}
+/*Existien diferentes tipos de div*/
+div{
+
+}
+
+input[type=radio]{
+    background: #439bcd;
+    border-radius: 0px;
+}
+
+
+select {
+    background: #439bcd;
+}
+/*utilizacion de tablas en diferentes contextos*/
+/*table{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+table tr td{
+    display: inline-block;
+}*/
+ul{
+    display: block;
+}
+
+ol{
+
+}
+
+textArea{
+    background: #439bcd;
+    padding: 15px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #ffffff;
+}
